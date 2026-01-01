@@ -34,14 +34,12 @@ Most air quality monitoring systems are reactive, detecting harmful pollution le
 - **Temporal resolution:** Annual  
 - **Primary focus:** Ozone-related air quality indicators  
 
-Raw EPA data are not included in this repository due to size and reproducibility constraints.  
-The project instead emphasizes **processed datasets, feature engineering logic, and modeling pipelines** to ensure transparency and reproducibility.
+> Raw EPA data are not included in this repository due to size and reproducibility constraints.  
+> The project emphasizes **processed datasets, feature engineering logic, and modeling pipelines** to ensure transparency and reproducibility.
 
 ---
 
 ## Methodological Framework
-The project follows a structured and reproducible research pipeline:
-
 ### 1. Exploratory Data Analysis
 - Long-term national pollution trends  
 - Geographic variability across states and counties  
@@ -78,49 +76,55 @@ Baseline forecasting results indicate that lagged values and rolling statistics 
 ---
 
 ## Project Structure
+```text
 air-quality-health-risk-forecasting/
-│
-├── data/ # raw, processed, external (future)
-├── notebooks/ # EDA, feature engineering, baseline models
-├── src/ # reusable data, feature, and modeling code
+├── data/                  # raw, processed, external (future)
+│   └── README.md           # data documentation
+├── notebooks/             # EDA, feature engineering, baseline models
+├── src/                   # reusable data, feature, and modeling code
 ├── results/
-│ └── figures/ # research visualizations
-├── experiments/ # experiment logs (future extensions)
-├── research/ # abstract drafts and literature notes
+│   └── figures/           # research visualizations
+├── experiments/           # experiment logs (future extensions)
+├── research/              # abstract drafts and literature notes
 └── README.md
 
 
----
+Research Status
 
-## Research Status
-This repository represents a **research-ready baseline**, designed to:
+This repository represents a research-ready baseline, designed to:
 
-- Support academic collaboration  
-- Enable integration with health and meteorological datasets  
-- Serve as a foundation for journal or conference submissions  
+Support academic collaboration
 
-The emphasis is placed on **methodological rigor, interpretability, and reproducibility**, rather than premature optimization.
+Enable integration with health and meteorological datasets
 
----
+Serve as a foundation for journal or conference submissions
 
-## Future Work
-- Integration with health outcome datasets (e.g., hospital admissions, mortality)  
-- Causal evaluation of environmental and regulatory interventions  
-- Advanced spatiotemporal modeling (Bayesian, hierarchical, or graph-based approaches)  
-- Validation of early-warning thresholds for public health decision-making  
+The emphasis is on methodological rigor, interpretability, and reproducibility, rather than premature optimization.
 
----
+Future Work
 
-## Reproducibility Note
-Raw and processed datasets are excluded from this repository due to size constraints.
-All data preprocessing steps, feature engineering logic, and modeling pipelines
-are fully documented and reproducible.
+Integration with health outcome datasets (e.g., hospital admissions, mortality)
 
-## Author
-**Mariam Zakaria**  
-Machine Learning & Data Science  
+Causal evaluation of environmental and regulatory interventions
+
+Advanced spatiotemporal modeling (Bayesian, hierarchical, or graph-based approaches)
+
+Validation of early-warning thresholds for public health decision-making
+
+Reproducibility Note
+
+Raw and processed datasets are excluded due to size constraints.
+All data preprocessing steps, feature engineering logic, and modeling pipelines are fully documented and reproducible.
+
+Author
+
+Mariam Zakaria
+Machine Learning & Data Science
 
 Research interests:
-- Interpretable machine learning  
-- Environmental risk modeling  
-- Public health analytics  
+
+Interpretable machine learning
+
+Environmental risk modeling
+
+Public health analytics
