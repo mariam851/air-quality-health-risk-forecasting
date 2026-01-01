@@ -1,0 +1,28 @@
+# Data
+data/raw/*
+data/processed/*
+data/external/*
+
+!data/raw/README.md
+!data/processed/README.md
+!data/external/README.md
+
+# Ignore all CSV files in data
+data/raw/*.csv
+data/processed/*.csv
+data/external/*.csv
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+experiments/logs/*
