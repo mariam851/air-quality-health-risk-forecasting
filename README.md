@@ -63,22 +63,33 @@ Our Machine Learning approach significantly outperforms the baseline, proving th
 
 ---
 
-Future Work
-Health Integration: Linking pollution forecasts with hospital admission rates.
+---
 
-Causal Evaluation: Analyzing the impact of specific regulatory interventions.
+## Future Research Directions
+This framework is designed as an open-ended research baseline. I am actively looking to extend this work in the following directions:
 
-Advanced Modeling: Exploring spatiotemporal Graph Neural Networks (GNNs).
+* **Multimodal Health Integration:** Correlating exceedance forecasts with geo-coded public health datasets (e.g., CDC PLACES, hospital admission rates, and respiratory mortality indices) to quantify the health burden.
+* **Causal Inference & Policy Evaluation:** Utilizing quasi-experimental designs (e.g., Difference-in-Differences) to evaluate the effectiveness of specific state-level environmental regulations.
+* **Advanced Spatiotemporal Architectures:** Transitioning from tree-based ensembles to Graph Neural Networks (GNNs) and LSTMs to capture complex spatial "spillover" effects between neighboring counties.
+* **Early-Warning Decision Support:** Developing a probabilistic threshold-based system to support local government decision-making for "Code Red" air quality alerts.
 
-Author
-Mariam Zakaria Machine Learning & Data Science Researcher Research interests: Interpretable ML, Environmental Risk Modeling, Public Health Analytics.
+---
+
+## Author & Academic Collaboration
+**Mariam Zakaria** *Machine Learning & Data Science Researcher* **Research Interests:** * Interpretable Machine Learning in Environmental Science.
+* Spatio-temporal Risk Modeling.
+* Data-driven Public Health Policy.
+
+> **Open for Collaboration:** I am actively seeking academic mentorship and collaborative opportunities to refine this framework for potential journal submission or conference presentation. If you are a faculty member or researcher interested in environmental health and predictive modeling, I would welcome the opportunity to discuss this work further.
+
+---
 
 ## Project Structure
 ```text
 air-quality-health-risk-forecasting/
-├── data/                 # Data documentation (Raw data excluded for size)
-├── notebooks/           # EDA, Feature Engineering, and Modeling logic
-├── src/                 # Reusable Python scripts for the pipeline
-├── results/figures/     # Research visualizations
-├── research/            # Literature notes and abstract drafts
-└── README.md            # Research documentation
+├── data/                 # Data documentation & preprocessing logs
+├── notebooks/           # Standardized EDA, Feature Engineering, & Baseline Modeling
+├── src/                 # Modular Python scripts for pipeline reproducibility
+├── results/figures/     # High-fidelity research visualizations for publication
+├── research/            # Literature review, abstract drafts, and methodology notes
+└── README.md            # Research-centric project documentation
