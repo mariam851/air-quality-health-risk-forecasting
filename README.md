@@ -63,18 +63,6 @@ Our Machine Learning approach significantly outperforms the baseline, proving th
 
 ---
 
-## Project Structure
-```text
-air-quality-health-risk-forecasting/
-├── data/                 # Data documentation (Raw data excluded for size)
-├── notebooks/           # EDA, Feature Engineering, and Modeling logic
-├── src/                 # Reusable Python scripts for the pipeline
-├── results/figures/     # Research visualizations
-├── research/            # Literature notes and abstract drafts
-└── README.md            # Research documentation
-ذذذذ
-
-
 Future Work
 Health Integration: Linking pollution forecasts with hospital admission rates.
 
@@ -84,3 +72,13 @@ Advanced Modeling: Exploring spatiotemporal Graph Neural Networks (GNNs).
 
 Author
 Mariam Zakaria Machine Learning & Data Science Researcher Research interests: Interpretable ML, Environmental Risk Modeling, Public Health Analytics.
+
+## Project Structure
+```text
+air-quality-health-risk-forecasting/
+├── data/                 # Data documentation (Raw data excluded for size)
+├── notebooks/           # EDA, Feature Engineering, and Modeling logic
+├── src/                 # Reusable Python scripts for the pipeline
+├── results/figures/     # Research visualizations
+├── research/            # Literature notes and abstract drafts
+└── README.md            # Research documentation
