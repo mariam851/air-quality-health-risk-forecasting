@@ -63,8 +63,6 @@ Our Machine Learning approach significantly outperforms the baseline, proving th
 
 ---
 
----
-
 ## Future Research Directions
 This framework is designed as an open-ended research baseline. I am actively looking to extend this work in the following directions:
 
