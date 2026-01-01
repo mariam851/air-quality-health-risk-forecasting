@@ -1,6 +1,6 @@
 # Air Quality & Public Health Risk Forecasting
 
-![Ozone Time Series](results/figures/ozone_time_series.png)
+![Ozone Time Series](results/figures/National Average Ozone Exceedance Over Time.png)
 
 ## Overview
 Air pollution is one of the most critical environmental determinants of public health. Exposure to elevated ozone levels has been consistently linked to respiratory and cardiovascular diseases. This project develops a **research-oriented forecasting framework** to analyze air quality dynamics and identify **early-warning signals** for high-risk regions.
@@ -61,15 +61,13 @@ Most air quality monitoring systems are reactive, detecting harmful pollution le
 
 ---
 
-## Urban vs Rural Pollution Patterns
-![Urban vs Rural Comparison](results/figures/urban_rural_comparison.png)
 
 Preliminary exploratory analysis suggests systematic differences in ozone dynamics between urban and rural counties, motivating further stratified modeling and causal investigation.
 
 ---
 
 ## Baseline Forecasting Performance
-![Predicted vs Observed](results/figures/predicted_vs_observed.png)
+![Predicted vs Observed](results/figures/Predicted vs. Observed (Ozone Days).png)
 
 Baseline forecasting results indicate that lagged values and rolling statistics capture strong temporal dependencies in ozone exceedance, supporting their use in early-warning systems without excessive model complexity.
 
